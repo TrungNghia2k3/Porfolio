@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Typography & Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px; /* Increased for larger header */
+  font-feature-settings: 'liga' 1, 'kern' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Ensure sections have proper spacing for fixed header */
+section {
+  scroll-margin-top: 100px; /* Increased for fixed header */
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.025em;
+}
+
+/* Large text letter spacing */
+.text-5xl, .text-6xl, .text-7xl {
+  letter-spacing: -0.05em;
+}
+
+/* Smooth transitions for better UX */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
