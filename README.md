@@ -105,12 +105,12 @@ npm start
 ---
 
 ## 🌐 Live Demo
-Visit the live portfolio: [Portfolio Website](https://your-portfolio-url.com)
+Visit the live portfolio: [Portfolio Website](https://porfolio-kappa-liart.vercel.app/)
 
 ---
 
 ## 📧 Contact
 **Nguyễn Trung Nghĩa**
 - Email: trungnghia282003@gmail.com
-- Portfolio: [Live Demo](https://your-portfolio-url.com)
+- Portfolio: [Live Demo](https://porfolio-kappa-liart.vercel.app/)
 - GitHub: [@TrungNghia2k3](https://github.com/TrungNghia2k3)
