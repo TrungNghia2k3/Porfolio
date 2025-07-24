@@ -1,53 +1,119 @@
-# Getting Started with Create React App
+# 🌟 Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive personal portfolio website built with React, featuring smooth scroll animations, dark mode support, and a storytelling design approach that showcases professional experience and projects.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Key Features
+- **Smooth Scroll Animations**: Section-by-section reveal with custom intersection observer hooks
+- **Dark/Light Mode Toggle**: Seamless theme switching with persistent user preferences
+- **Responsive Design**: Mobile-first approach using Tailwind CSS
+- **Storytelling Layout**: Progressive content reveal as users scroll through sections
+- **Interactive Elements**: Floating programming-themed icons and decorative animations
+- **Professional Sections**: Hero, About, Tech Stack, Projects, and Contact sections
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **Framework:** React 19.1.0
+- **Styling:** Tailwind CSS, Custom CSS animations
+- **Icons:** React Icons (HeroIcons v2)
+- **Animations:** Custom scroll-triggered animations with Intersection Observer API
+- **Development:** React Scripts, Create React App
+- **Others:** Web Vitals for performance monitoring
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Project Structure Highlights
+- `components/`: Reusable UI components (Header, Footer, DarkModeToggle, SmoothScrollWrapper)
+- `sections/`: Main portfolio sections (Hero, About, TechStack, Projects, Contact)
+- `hooks/`: Custom React hooks (useScrollAnimation for intersection observer)
+- `styles/`: Global CSS with custom animations and transitions
+- `constants/`: Static data (personal info, projects, tech stack, education)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🎯 Key Components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Custom Hooks
+- **useScrollAnimation**: Intersection Observer-based hook for scroll-triggered animations
+- **AnimatedSection**: Reusable component wrapper for various animation effects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Animation Features
+- **Fade Animations**: fadeInUp, fadeInDown, fadeInLeft, fadeInRight
+- **Scale Effects**: scaleIn for interactive elements
+- **Slide Transitions**: slideInUp for project cards
+- **Staggered Animations**: Sequential reveals with customizable delays
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Sections
+- **Hero**: Animated introduction with floating programming icons
+- **About**: Personal description and education background
+- **Tech Stack**: Interactive grid of technologies with hover effects
+- **Projects**: Portfolio showcase with project cards and tech stacks
+- **Contact**: Direct contact information with animated presentation
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Design Philosophy
+This portfolio was built to demonstrate:
+- **Modern Web Development**: Latest React features and best practices
+- **User Experience**: Smooth animations and intuitive navigation
+- **Responsive Design**: Mobile-first approach with seamless desktop scaling
+- **Performance**: Optimized animations with reduced motion support
+- **Accessibility**: Focus management and screen reader friendly
+- **Professional Presentation**: Clean, minimal design with meaningful interactions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-## Learn More
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/TrungNghia2k3/Porfolio.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Navigate to project directory
+cd my-portfolio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
+# Start development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Available Scripts
+- `npm start` - Runs the development server
+- `npm build` - Creates production build
+- `npm test` - Runs test suite
+- `npm eject` - Ejects from Create React App (one-way operation)
+
+---
+
+## 📱 Features Overview
+- **Responsive Navigation**: Collapsible mobile menu with smooth transitions
+- **Scroll-Based Storytelling**: Content reveals as user scrolls through sections
+- **Theme Persistence**: Dark/light mode preference saved to localStorage
+- **Smooth Scrolling**: Enhanced navigation between sections
+- **Performance Optimized**: Lazy loading and optimized animations
+- **Professional Content**: Showcases real projects, skills, and experience
+
+---
+
+## 🌐 Live Demo
+Visit the live portfolio: [Portfolio Website](https://your-portfolio-url.com)
+
+---
+
+## 📧 Contact
+**Nguyễn Trung Nghĩa**
+- Email: trungnghia282003@gmail.com
+- Portfolio: [Live Demo](https://your-portfolio-url.com)
+- GitHub: [@TrungNghia2k3](https://github.com/TrungNghia2k3)
 
 ### Analyzing the Bundle Size
 
