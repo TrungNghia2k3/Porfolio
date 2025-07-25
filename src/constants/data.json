@@ -47,13 +47,13 @@
             "category": "Frontend"
         },
         {
-            "name": "React",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            "category": "Frontend"
+            "name": "Node.js",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            "category": "Backend"
         },
         {
-            "name": "Redux",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+            "name": "React",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             "category": "Frontend"
         },
         {
@@ -67,9 +67,29 @@
             "category": "Frontend"
         },
         {
-            "name": "Sass",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-            "category": "Frontend"
+            "name": "Java",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            "category": "Backend"
+        },
+        {
+            "name": "Java Servlet",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            "category": "Backend"
+        },
+        {
+            "name": "Spring",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+            "category": "Backend"
+        },
+        {
+            "name": "MySQL",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+            "category": "Database"
+        },
+        {
+            "name": "Microsoft SQL Server",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg",
+            "category": "Database"
         },
         {
             "name": "Git",
@@ -87,90 +107,102 @@
             "category": "Tools"
         },
         {
-            "name": "Visual Studio Code",
-            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+            "name": "IntelliJ IDEA",
+            "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg",
             "category": "Tools"
         }
     ],
     "projects": [
         {
             "id": 1,
-            "title": "E-Commerce Platform",
-            "description": "A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-            "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
+            "title": "DSA.CO (Data Structures and Algorithms)",
+            "description": "A comprehensive interactive learning platform for mastering Data Structures and Algorithms, featuring step-by-step visualizations, algorithm explanations, and classic computer science problems.",
+            "image": "https://images.unsplash.com/photo-1509475826633-fed577a2c71b?w=400&h=250&fit=crop",
             "techStack": [
                 "React",
-                "Node.js",
-                "MongoDB",
-                "Stripe"
+                "Tailwind CSS"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://dsa-co.vercel.app/",
+            "codeUrl": "https://github.com/TrungNghia2k3/DSA-CO"
         },
         {
             "id": 2,
-            "title": "Task Management App",
-            "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-            "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
+            "title": " Book Store Web Application",
+            "description": "A comprehensive e-commerce web application for book shopping built with React, featuring user management, shopping cart functionality, order processing, and administrative tools.",
+            "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=250&fit=crop",
             "techStack": [
-                "Vue.js",
-                "Firebase",
-                "Tailwind CSS"
+                "React",
+                "Bootstrap",
+                "Spring Boot",
+                "MySQL"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://book-store-web-app-seven.vercel.app/",
+            "codeUrl": "https://github.com/TrungNghia2k3/BookStoreWebApp"
         },
         {
             "id": 3,
-            "title": "Weather Dashboard",
-            "description": "A responsive weather application with location-based forecasts, interactive charts, and beautiful UI animations.",
-            "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+            "title": "James Thew Chef API Documentation",
+            "description": "A comprehensive API documentation web application for the James Thew Chef platform, featuring role-based authentication, interactive endpoint testing, and real-time API exploration.",
+            "image": "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=400&h=250&fit=crop",
             "techStack": [
                 "React",
-                "Chart.js",
-                "OpenWeather API"
+                "Vite",
+                "Tailwind CSS",
+                "Java Servlet",
+                "MySQL"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://james-thew-web-app.vercel.app/",
+            "codeUrl": "https://github.com/TrungNghia2k3/JamesThewWebApp"
         },
         {
             "id": 4,
-            "title": "Social Media Analytics",
-            "description": "An analytics dashboard for social media metrics with data visualization, reporting features, and real-time monitoring.",
-            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+            "title": "SHOP.CO (E-Commerce Web)",
+            "description": "A modern, responsive e-commerce web application built with React, featuring a complete shopping experience with advanced filtering, sorting, and mobile-optimized design.",
+            "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=400&h=250&fit=crop",
             "techStack": [
-                "Angular",
-                "D3.js",
-                "Express.js"
+                "React",
+                "Bootstrap"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://shop-co-fawn-zeta.vercel.app/",
+            "codeUrl": "https://github.com/TrungNghia2k3/shop-co"
         },
         {
             "id": 5,
-            "title": "Fitness Tracker",
-            "description": "A mobile-responsive fitness tracking app with workout plans, progress tracking, and social features for motivation.",
-            "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop",
+            "title": "The Movie Web Application",
+            "description": "A responsive movie browsing web application built with React, focusing on user experience, performance, and comprehensive movie discovery via The Movie Database (TMDb) API.",
+            "image": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=400&h=250&fit=crop",
             "techStack": [
-                "React Native",
-                "Redux",
-                "Firebase"
+                "React",
+                "Bootstrap"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://vercel.com/trungnghia2k3s-projects/the-movie-web-app",
+            "codeUrl": "https://github.com/TrungNghia2k3/the-movie-web-app"
         },
         {
             "id": 6,
-            "title": "AI Content Generator",
-            "description": "An AI-powered content generation tool with multiple templates, customization options, and export functionality.",
-            "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=250&fit=crop",
+            "title": "Pronia (Plant Shop E-Commerce)",
+            "description": "A responsive plant e-commerce web application built with vanilla HTML, CSS, and JavaScript, focusing on user experience, product management, and modern web standards.",
+            "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop",
             "techStack": [
-                "Next.js",
-                "OpenAI API",
-                "Prisma"
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "liveUrl": "#",
-            "codeUrl": "#"
+            "liveUrl": "https://trungnghia2k3.github.io/SoftechAptech-Techwiz-4/",
+            "codeUrl": "https://github.com/TrungNghia2k3/SoftechAptech-Techwiz-4"
+        },
+        {
+            "id": 7,
+            "title": "NP Flavors (Spice E-Commerce)",
+            "description": "A responsive spice and condiment e-commerce web application built with vanilla HTML, CSS, and JavaScript, featuring a complete shopping experience with cart management and product browsing.",
+            "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&h=250&fit=crop",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "liveUrl": "https://trungnghia2k3.github.io/SoftechAptech-HTML-static-sem1/",
+            "codeUrl": "https://github.com/TrungNghia2k3/SoftechAptech-HTML-static-sem1"
         }
     ]
 }
